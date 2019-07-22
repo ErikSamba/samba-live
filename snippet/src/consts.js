@@ -1,0 +1,2 @@
+export const ELEMENT_WIDGET_HEIGHT = 400
+export const ELEMENT_WIDGET_WIDTH = 700

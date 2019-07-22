@@ -1,0 +1,38 @@
+{
+	"include": [
+		"./client/element-widget",
+		"./types",
+		"./common"
+	],
+	"exclude": [
+		"node_modules",
+	],
+    "compilerOptions": {
+        "outDir": "./client/dist/",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "module": "es6",
+        "target": "esnext",
+		"jsx": "react",
+		"moduleResolution": "node",
+		"allowJs": true,
+		"checkJs": true,
+		"strict": false,
+		"esModuleInterop": true,
+		"removeComments": true,
+		"allowUnreachableCode": false,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noImplicitReturns": true,
+		"noFallthroughCasesInSwitch": true,
+		"forceConsistentCasingInFileNames": true,
+		"importHelpers": true,
+		"baseUrl": "./",
+		"paths": {
+			"element-widget/*": ["./client/element-widget/*"],
+			"setup/*": ["./client/setup/*"],
+			"common-constants": ["./common/common-constants.js"],
+		},
+		"typeRoots": ["./node_modules/@types", "./types"]
+    }
+}

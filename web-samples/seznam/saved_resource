@@ -1,0 +1,9 @@
+Adform=window.Adform||{};
+Adform.host="https://track.adform.net";
+Adform.shost="https://s1.adform.net";
+Adform.scriptBase=Adform.shost+"/banners/scripts/";
+Adform.cache="618";
+Adform.ADFBannerData={"URL":"https://track.adform.net/adfserve/?bn=27770278;rtbpid=3;rtbinv=${INV_SRC};rtbwp=3.18-Ku5zggJgf0HOxm1Xl5chMsN4iOtIBxgX0;rtbr=9215861043317256570;rtbcid=${ENC_CID};rtbtpc=${ENC_TPC};rtburl=https%3A%2F%2Fwww.seznam.cz%2F;rtbcat=${IAB_CATS};rtbdp=${DATA_PROV};rtbdt=${DATA_TYPE};rtbdc=${DATA_FEE_ENC};rtbplc=${ENC_PLC};rtbrmc=${ENC_RMC};rtbdata=KG0_GfzSHUalYRF-2pZAS8py-3CsKIzdxNXPWkyKZNO2rolkrVdP1W9WFHgl1xeMbS0a6pKQkZyMZA0f930CJjipKIp0LiXMqeWEbxVFn4tH4CeCFXf5SbFLPQNoDAhOMZ_TPdtOIyix36F7hn6_on5BH3-_A6a8f_H62iNkXT1im6yG6RWdGDBtR084MT0bbf6WTQMduQjFSjDWV82QlfiE8ofWxMQe6cQYmdEjRClEqD9wFQoyneqR6wy7dtFK9u51B6_MFy08_FH1379y35X8HvnLkZd_f3RedmD561booTTWaN2hRV6Uv0-4ommYaS3ZArNRSQaMlueCJ7gD1LoTylHHZUu3mXpf3RZUEaj5_LD8ja8GSYu1fifnQeGZi8uCQUppgFOwaoa6TAdPdEBQf7njnj0YMjvX0XXC-URk9JUJFwE_MQ2;rtbtest=0","CREFURL":"https%3a%2f%2fams1-ib.adnxs.com%2fif%3fan_audit%3d0%26referrer%3dhttps%253A%252F%252Fwww.seznam.cz%252F%26e%3dwqT_3QKmCfSlBKYEAAADANYABQEIpfii6QUQ-uKk0qiZ1PJ_GK_h6Nf_3eW9PSo2CXE9CtejcAlAEYNRSZ2AJgdAGQAAAGC4HgdAIYNRSZ2AJgdAKSU1ZTs0jQlAMQAAAIAUruc_MLOuogU4vjZA1UZIW1DTtPZAWJWpSGAAaOiTa3i2tQWAAQGKAQNVU0SSAQNVU0SYAawCoAHYBKgBAbABALgBAsABBcgBAtABCdgBAOABAPABAJICDENLYjduZzBRc1E0PdgCAOACmMVC6gIWaHR0cHM6Ly","BN":27770278,"STUBFILE":{"PATH":"/adform/IFrameManager.html"}};
+if(!Adform.ADFBannerParams)Adform.ADFBannerParams=[];
+Adform.ADFBannerParams.push(Adform.ADFBannerData);
+typeof Adform.ADFUtilInstance=="undefined"?document.write('<scr'+'ipt type="text/javascript" src="https://s1.adform.net/stoat/618/s1.adform.net/bootstrap.js"></scr'+'ipt>'):new Adform.ADFBanner();

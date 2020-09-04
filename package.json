@@ -32,7 +32,7 @@
 		"file-loader": "^4.0.0",
 		"ifrau": "^0.27.0",
 		"mini-css-extract-plugin": "^0.7.0",
-		"node-sass": "^4.12.0",
+		"node-sass": "^4.13.1",
 		"nodemon": "^1.19.1",
 		"react": "^16.8.6",
 		"react-custom-scrollbars": "^4.2.1",
